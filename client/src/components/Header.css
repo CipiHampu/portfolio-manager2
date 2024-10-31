@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    width: 80%;
+    max-width: 1200px; /* Setează o lățime maximă pentru a menține headerul proporțional pe ecrane mari */
+    justify-content: space-between; /* Aliniază titlul/nav-ul și butonul Add Artwork */
+    align-items: baseline; /* Centrează vertical titlul și butoanele */
+    padding: 20px; /* Adaugă un pic de padding */
+    background-color: #f0f0f0; /* Poți ajusta culoarea de fundal */
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 50%; /* Așează headerul la mijlocul paginii */
+    transform: translateX(-50%); /* Corectează poziția astfel încât să fie centrat */
+}
+
+
+.title-nav {
+    display: flex; /* Folosește flex pentru a alinia titlul și butoanele */
+    align-items: baseline; /* Centrează vertical titlul și butoanele */
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace; /* Alege un font mai deosebit */
+    font-size: 36px; /* Ajustează dimensiunea fontului după preferințe */
+    color: rgb(97, 26, 26);
+    margin: 0; /* Elimină marginea implicită */
+}
+
+.nav {
+    display: flex; /* Folosește flex pentru a alinia butoanele */
+    margin-left: 20px; /* Adaugă un pic de spațiu între titlu și butoane */
+}
+
+.nav-button,
+.add-artwork-button {
+    margin-right: 15px; /* Spațiu între butoane */
+    padding: 0; /* Elimină paddingul */
+    border: none; /* Elimină bordura */
+    background: none; /* Elimină fundalul */
+    color: black; /* Poți schimba culoarea textului după preferințe */
+    text-decoration: none; /* Elimină sublinierea, dacă e cazul */
+    cursor: pointer; /* Schimbă cursorul la hover */
+    font-size: 24px;
+}
+
+.add-artwork-button {
+    margin-left: auto; /* Aliniază butonul Add Artwork la dreapta */
+}
+
+.nav-button:hover,
+.add-artwork-button:hover {
+    text-decoration: underline; /* Adaugă subliniere la hover pentru un efect vizual */
+}

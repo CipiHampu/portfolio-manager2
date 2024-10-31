@@ -1,0 +1,47 @@
+.add-artwork-container {
+    max-width: 600px; /* Lățimea maximă a formularului */
+    margin: 40px auto; /* Centrarea formularului */
+    padding: 20px; /* Padding intern */
+    background-color: #f9f9f9; /* Fundal deschis pentru formular */
+    border: 1px solid #ddd; /* Bordură ușoară */
+    border-radius: 8px; /* Colțuri rotunjite */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Umbre subtile */
+}
+
+h2 {
+    text-align: center; /* Centrarea titlului */
+    color: rgb(97, 26, 26); /* Culoare personalizată pentru titlu */
+}
+
+label {
+    display: block; /* Fiecare etichetă pe o linie nouă */
+    margin-bottom: 10px; /* Spațiu între etichete */
+    font-weight: bold; 
+    color: black;/* Face textul etichetei mai îndrăzneț */
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%; /* Lățimea completă */
+    padding: 10px; /* Padding intern */
+    border: 1px solid #ccc; /* Bordură standard */
+    border-radius: 4px; /* Colțuri rotunjite */
+    box-sizing: border-box; /* Include padding în lățime */
+    margin-bottom: 20px; /* Spațiu între câmpuri */
+}
+
+button {
+    width: 100%; /* Lățimea completă a butonului */
+    padding: 10px; /* Padding intern */
+    background-color: rgb(97, 26, 26); /* Fundal personalizat pentru buton */
+    color: white; /* Text alb */
+    border: none; /* Fără bordură */
+    border-radius: 4px; /* Colțuri rotunjite */
+    font-size: 16px; /* Dimensiunea textului */
+    cursor: pointer; /* Schimbă cursorul la hover */
+}
+
+button:hover {
+    background-color: rgb(77, 21, 21); /* Fundal mai închis la hover */
+}
